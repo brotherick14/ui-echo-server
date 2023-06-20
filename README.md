@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Pasos para correr el proyecto en un contenedor Docker:
+
+1. **Construye la imagen Docker**: 
+    ```
+    docker build -t nombre-de-tu-imagen .
+    ```
+
+2. **Corre el contenedor Docker**: 
+    ```
+    docker run -p 3000:3000 nombre-de-tu-imagen
+    ```
+
+El servidor debería estar corriendo en http://localhost:3000.
 ## Available Scripts
 
 In the project directory, you can run:
