@@ -6,12 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. **Construye la imagen Docker**: 
     ```
-    docker build -t nombre-de-tu-imagen .
+    docker build -t ui-echo-server .
     ```
 
 2. **Corre el contenedor Docker**: 
     ```
-    docker run -p 3000:3000 nombre-de-tu-imagen
+    docker run -p 3000:3000 ui-echo-server
     ```
 
 El servidor debería estar corriendo en http://localhost:3000.
