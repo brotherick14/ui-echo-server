@@ -10,10 +10,12 @@
 
 2. **Corre el contenedor Docker**: 
     ```
-    docker run -p 3000:3000 ui-echo-server
+    docker run -p 4000:4000 ui-echo-server
     ```
 
 El servidor debería estar corriendo en http://localhost:3000.
+Para que el sitio muestre información tienes que inicializar primero el API.
+https://github.com/brotherick14/api-echo-server
 ## Available Scripts
 
 In the project directory, you can run:
@@ -21,7 +23,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:4000](http://localhost:4000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
