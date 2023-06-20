@@ -13,7 +13,8 @@
     docker run -p 4000:4000 ui-echo-server
     ```
 
-El servidor debería estar corriendo en http://localhost:3000.
+El servidor debería estar corriendo en http://localhost:4000
+
 Para que el sitio muestre información tienes que inicializar primero el API.
 https://github.com/brotherick14/api-echo-server
 ## Available Scripts
