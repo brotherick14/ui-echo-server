@@ -2,15 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: grey;
+  padding: 20px;
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.table-container {
+  min-height: 100vh;
+  background-color: grey;
+}
+
+::placeholder {
+  color: rgba(176, 174, 174, 0.5); /* Ajusta el color y la opacidad según tus preferencias */
 }
 
 .App-header {

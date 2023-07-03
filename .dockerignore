@@ -1,0 +1,10 @@
+# Excluir archivos y directorios específicos
+node_modules/
+
+# Excluir archivos por extensión
+*.log
+*.tmp
+
+# Excluir directorios y archivos ocultos
+.git/
+.vscode/
